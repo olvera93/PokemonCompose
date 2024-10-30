@@ -6,6 +6,6 @@ object Constants {
     const val POKEMON_DETAIL_ARGUMENT_KEY = "pokemonId"
     const val POKEMON_DETAIL_SCREEN = "pokemon/{pokemonId}"
 
-
+    const val LIMIT = 60
 
 }
