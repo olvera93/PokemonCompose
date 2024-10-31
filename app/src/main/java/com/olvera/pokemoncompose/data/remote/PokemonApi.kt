@@ -9,7 +9,7 @@ import retrofit2.http.Query
 interface PokemonApi {
 
 
-    @GET(BASE_URL+ENDPOINT_POKEMON_LIST)
+    @GET(ENDPOINT_POKEMON_LIST)
     suspend fun getPokemonList(
         @Query("limit") limit: Int,
         @Query("offset") offset: Int
